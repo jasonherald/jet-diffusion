@@ -128,3 +128,133 @@
 2024-06-16T21:27:08.859Z thumbsup:error Error: spawn gifsicle ENOENT
 2024-06-16T21:27:38.183Z thumbsup:warn The following sources files were not processed:
 2024-06-16T21:27:38.183Z thumbsup:warn ComfyUI_00020_.webp.gif,ComfyUI_00021_.webp.gif,ComfyUI_00023_.webp.gif,ComfyUI_00024_.webp.gif,ComfyUI_00025_.webp.gif,ComfyUI_00026_.webp.gif,ComfyUI_00027_.webp.gif,Jet-DS.webp.gif,Jet-DS_00001_.webp.gif,Jet-DS_00002_.webp.gif,Jet-DS_00003_.webp.gif,Jet-DS_00005_.webp.gif,Jet-DS_00006_.webp.gif,Jet-DS_00007_.webp.gif,Jet-DS_00008_.webp.gif,Jet-DS_00009_.webp.gif,Jet-DS_00010_.webp.gif,Jet-DS_00015_.webp.gif,Jet-DS_00011_.webp,Jet-DS_00016_.webp.gif,Jet-DS_00017_.webp.gif,226FCBC1-F606-43EB-A9E2-106B3E2EA1B7.mov,2EB874DC-EDCB-42BE-8720-23A6A6D3B8A7.mov,37935E41-6555-4BD0-8A88-B96356E641BE.mov,3fe9fb54d365d7dc56645b64ecdbc19668f52cfe48144ca507be5db0.mov,4e8000235c715a69472abf10c1eb0d12803203ab30781362b75147f3.mov,5BB72F75-1008-4625-BA40-8F3BD540CF41.mov,5bc14b7cfc699381465044b214ee896079fa44a13630364f4391154c.mov,ComfyUI_00002_.webp.gif,ComfyUI_00003_.webp.gif,ComfyUI_00004_.webp.gif,ComfyUI_00006_.webp.gif,ComfyUI_00007_.webp.gif,ComfyUI_00013_.webp.gif,ComfyUI_00015_.webp.gif,ComfyUI_00016_.webp.gif,ComfyUI_00017_.webp.gif,ComfyUI_00018_.webp.gif
+2024-06-16T23:35:54.457Z thumbsup:warn ffmpeg (https://www.ffmpeg.org) is not installed. You will not be able to process videos.
+2024-06-16T23:35:54.460Z thumbsup:warn gifsicle (http://www.lcdf.org/gifsicle) is not installed. You will not be able to process animated GIFs.
+2024-06-16T23:35:54.460Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
+2024-06-16T23:35:54.700Z thumbsup:error Error processing ComfyUI_00020_.webp.gif -> media/large/ComfyUI_00020_.webp.gif
+2024-06-16T23:35:54.700Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.700Z thumbsup:error Error processing ComfyUI_00021_.webp.gif -> media/large/ComfyUI_00021_.webp.gif
+2024-06-16T23:35:54.700Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.700Z thumbsup:error Error processing ComfyUI_00023_.webp.gif -> media/large/ComfyUI_00023_.webp.gif
+2024-06-16T23:35:54.700Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.700Z thumbsup:error Error processing ComfyUI_00024_.webp.gif -> media/large/ComfyUI_00024_.webp.gif
+2024-06-16T23:35:54.700Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.700Z thumbsup:error Error processing ComfyUI_00025_.webp.gif -> media/large/ComfyUI_00025_.webp.gif
+2024-06-16T23:35:54.700Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.700Z thumbsup:error Error processing ComfyUI_00026_.webp.gif -> media/large/ComfyUI_00026_.webp.gif
+2024-06-16T23:35:54.700Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.700Z thumbsup:error Error processing ComfyUI_00027_.webp.gif -> media/large/ComfyUI_00027_.webp.gif
+2024-06-16T23:35:54.700Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.700Z thumbsup:error Error processing Jet-DS.webp.gif -> media/large/Jet-DS.webp.gif
+2024-06-16T23:35:54.700Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.700Z thumbsup:error Error processing Jet-DS_00001_.webp.gif -> media/large/Jet-DS_00001_.webp.gif
+2024-06-16T23:35:54.700Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.700Z thumbsup:error Error processing Jet-DS_00002_.webp.gif -> media/large/Jet-DS_00002_.webp.gif
+2024-06-16T23:35:54.700Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.700Z thumbsup:error Error processing Jet-DS_00003_.webp.gif -> media/large/Jet-DS_00003_.webp.gif
+2024-06-16T23:35:54.700Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.700Z thumbsup:error Error processing Jet-DS_00005_.webp.gif -> media/large/Jet-DS_00005_.webp.gif
+2024-06-16T23:35:54.700Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.701Z thumbsup:error Error processing Jet-DS_00006_.webp.gif -> media/large/Jet-DS_00006_.webp.gif
+2024-06-16T23:35:54.701Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.702Z thumbsup:error Error processing Jet-DS_00007_.webp.gif -> media/large/Jet-DS_00007_.webp.gif
+2024-06-16T23:35:54.702Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.702Z thumbsup:error Error processing Jet-DS_00008_.webp.gif -> media/large/Jet-DS_00008_.webp.gif
+2024-06-16T23:35:54.702Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.703Z thumbsup:error Error processing Jet-DS_00009_.webp.gif -> media/large/Jet-DS_00009_.webp.gif
+2024-06-16T23:35:54.703Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.703Z thumbsup:error Error processing Jet-DS_00010_.webp.gif -> media/large/Jet-DS_00010_.webp.gif
+2024-06-16T23:35:54.703Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.706Z thumbsup:error Error processing Jet-DS_00015_.webp.gif -> media/large/Jet-DS_00015_.webp.gif
+2024-06-16T23:35:54.706Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.707Z thumbsup:error Error processing Jet-DS_00016_.webp.gif -> media/large/Jet-DS_00016_.webp.gif
+2024-06-16T23:35:54.707Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.707Z thumbsup:error Error processing Jet-DS_00017_.webp.gif -> media/large/Jet-DS_00017_.webp.gif
+2024-06-16T23:35:54.707Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.709Z thumbsup:error Error processing 226FCBC1-F606-43EB-A9E2-106B3E2EA1B7.mov -> media/thumbs/226FCBC1-F606-43EB-A9E2-106B3E2EA1B7.jpg
+2024-06-16T23:35:54.709Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.712Z thumbsup:error Error processing 226FCBC1-F606-43EB-A9E2-106B3E2EA1B7.mov -> media/small/226FCBC1-F606-43EB-A9E2-106B3E2EA1B7.jpg
+2024-06-16T23:35:54.712Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.713Z thumbsup:error Error processing 226FCBC1-F606-43EB-A9E2-106B3E2EA1B7.mov -> media/large/226FCBC1-F606-43EB-A9E2-106B3E2EA1B7.jpg
+2024-06-16T23:35:54.713Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.714Z thumbsup:error Error processing 226FCBC1-F606-43EB-A9E2-106B3E2EA1B7.mov -> media/large/226FCBC1-F606-43EB-A9E2-106B3E2EA1B7.mp4
+2024-06-16T23:35:54.714Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.715Z thumbsup:error Error processing 2EB874DC-EDCB-42BE-8720-23A6A6D3B8A7.mov -> media/thumbs/2EB874DC-EDCB-42BE-8720-23A6A6D3B8A7.jpg
+2024-06-16T23:35:54.715Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.717Z thumbsup:error Error processing 2EB874DC-EDCB-42BE-8720-23A6A6D3B8A7.mov -> media/small/2EB874DC-EDCB-42BE-8720-23A6A6D3B8A7.jpg
+2024-06-16T23:35:54.717Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.718Z thumbsup:error Error processing 2EB874DC-EDCB-42BE-8720-23A6A6D3B8A7.mov -> media/large/2EB874DC-EDCB-42BE-8720-23A6A6D3B8A7.jpg
+2024-06-16T23:35:54.718Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.719Z thumbsup:error Error processing 2EB874DC-EDCB-42BE-8720-23A6A6D3B8A7.mov -> media/large/2EB874DC-EDCB-42BE-8720-23A6A6D3B8A7.mp4
+2024-06-16T23:35:54.719Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.720Z thumbsup:error Error processing 37935E41-6555-4BD0-8A88-B96356E641BE.mov -> media/thumbs/37935E41-6555-4BD0-8A88-B96356E641BE.jpg
+2024-06-16T23:35:54.720Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.721Z thumbsup:error Error processing 37935E41-6555-4BD0-8A88-B96356E641BE.mov -> media/small/37935E41-6555-4BD0-8A88-B96356E641BE.jpg
+2024-06-16T23:35:54.721Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.723Z thumbsup:error Error processing 37935E41-6555-4BD0-8A88-B96356E641BE.mov -> media/large/37935E41-6555-4BD0-8A88-B96356E641BE.jpg
+2024-06-16T23:35:54.723Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.724Z thumbsup:error Error processing 37935E41-6555-4BD0-8A88-B96356E641BE.mov -> media/large/37935E41-6555-4BD0-8A88-B96356E641BE.mp4
+2024-06-16T23:35:54.724Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.725Z thumbsup:error Error processing 3fe9fb54d365d7dc56645b64ecdbc19668f52cfe48144ca507be5db0.mov -> media/thumbs/3fe9fb54d365d7dc56645b64ecdbc19668f52cfe48144ca507be5db0.jpg
+2024-06-16T23:35:54.725Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.727Z thumbsup:error Error processing 3fe9fb54d365d7dc56645b64ecdbc19668f52cfe48144ca507be5db0.mov -> media/small/3fe9fb54d365d7dc56645b64ecdbc19668f52cfe48144ca507be5db0.jpg
+2024-06-16T23:35:54.727Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.728Z thumbsup:error Error processing 3fe9fb54d365d7dc56645b64ecdbc19668f52cfe48144ca507be5db0.mov -> media/large/3fe9fb54d365d7dc56645b64ecdbc19668f52cfe48144ca507be5db0.jpg
+2024-06-16T23:35:54.728Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.728Z thumbsup:error Error processing 3fe9fb54d365d7dc56645b64ecdbc19668f52cfe48144ca507be5db0.mov -> media/large/3fe9fb54d365d7dc56645b64ecdbc19668f52cfe48144ca507be5db0.mp4
+2024-06-16T23:35:54.728Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.730Z thumbsup:error Error processing 4e8000235c715a69472abf10c1eb0d12803203ab30781362b75147f3.mov -> media/thumbs/4e8000235c715a69472abf10c1eb0d12803203ab30781362b75147f3.jpg
+2024-06-16T23:35:54.730Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.731Z thumbsup:error Error processing 4e8000235c715a69472abf10c1eb0d12803203ab30781362b75147f3.mov -> media/small/4e8000235c715a69472abf10c1eb0d12803203ab30781362b75147f3.jpg
+2024-06-16T23:35:54.731Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.732Z thumbsup:error Error processing 4e8000235c715a69472abf10c1eb0d12803203ab30781362b75147f3.mov -> media/large/4e8000235c715a69472abf10c1eb0d12803203ab30781362b75147f3.jpg
+2024-06-16T23:35:54.732Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.733Z thumbsup:error Error processing 4e8000235c715a69472abf10c1eb0d12803203ab30781362b75147f3.mov -> media/large/4e8000235c715a69472abf10c1eb0d12803203ab30781362b75147f3.mp4
+2024-06-16T23:35:54.733Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.734Z thumbsup:error Error processing 5BB72F75-1008-4625-BA40-8F3BD540CF41.mov -> media/thumbs/5BB72F75-1008-4625-BA40-8F3BD540CF41.jpg
+2024-06-16T23:35:54.734Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.735Z thumbsup:error Error processing 5BB72F75-1008-4625-BA40-8F3BD540CF41.mov -> media/small/5BB72F75-1008-4625-BA40-8F3BD540CF41.jpg
+2024-06-16T23:35:54.735Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.736Z thumbsup:error Error processing 5BB72F75-1008-4625-BA40-8F3BD540CF41.mov -> media/large/5BB72F75-1008-4625-BA40-8F3BD540CF41.jpg
+2024-06-16T23:35:54.736Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.737Z thumbsup:error Error processing 5BB72F75-1008-4625-BA40-8F3BD540CF41.mov -> media/large/5BB72F75-1008-4625-BA40-8F3BD540CF41.mp4
+2024-06-16T23:35:54.737Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.738Z thumbsup:error Error processing 5bc14b7cfc699381465044b214ee896079fa44a13630364f4391154c.mov -> media/thumbs/5bc14b7cfc699381465044b214ee896079fa44a13630364f4391154c.jpg
+2024-06-16T23:35:54.738Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.739Z thumbsup:error Error processing 5bc14b7cfc699381465044b214ee896079fa44a13630364f4391154c.mov -> media/small/5bc14b7cfc699381465044b214ee896079fa44a13630364f4391154c.jpg
+2024-06-16T23:35:54.739Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.741Z thumbsup:error Error processing 5bc14b7cfc699381465044b214ee896079fa44a13630364f4391154c.mov -> media/large/5bc14b7cfc699381465044b214ee896079fa44a13630364f4391154c.jpg
+2024-06-16T23:35:54.741Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.741Z thumbsup:error Error processing 5bc14b7cfc699381465044b214ee896079fa44a13630364f4391154c.mov -> media/large/5bc14b7cfc699381465044b214ee896079fa44a13630364f4391154c.mp4
+2024-06-16T23:35:54.741Z thumbsup:error Error: spawn ffmpeg ENOENT
+2024-06-16T23:35:54.742Z thumbsup:error Error processing ComfyUI_00002_.webp.gif -> media/large/ComfyUI_00002_.webp.gif
+2024-06-16T23:35:54.742Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.743Z thumbsup:error Error processing ComfyUI_00003_.webp.gif -> media/large/ComfyUI_00003_.webp.gif
+2024-06-16T23:35:54.743Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.744Z thumbsup:error Error processing ComfyUI_00004_.webp.gif -> media/large/ComfyUI_00004_.webp.gif
+2024-06-16T23:35:54.744Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.744Z thumbsup:error Error processing ComfyUI_00006_.webp.gif -> media/large/ComfyUI_00006_.webp.gif
+2024-06-16T23:35:54.744Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.745Z thumbsup:error Error processing ComfyUI_00007_.webp.gif -> media/large/ComfyUI_00007_.webp.gif
+2024-06-16T23:35:54.745Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.745Z thumbsup:error Error processing ComfyUI_00013_.webp.gif -> media/large/ComfyUI_00013_.webp.gif
+2024-06-16T23:35:54.745Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.746Z thumbsup:error Error processing ComfyUI_00015_.webp.gif -> media/large/ComfyUI_00015_.webp.gif
+2024-06-16T23:35:54.746Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.746Z thumbsup:error Error processing ComfyUI_00016_.webp.gif -> media/large/ComfyUI_00016_.webp.gif
+2024-06-16T23:35:54.746Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.747Z thumbsup:error Error processing ComfyUI_00017_.webp.gif -> media/large/ComfyUI_00017_.webp.gif
+2024-06-16T23:35:54.747Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.748Z thumbsup:error Error processing ComfyUI_00018_.webp.gif -> media/large/ComfyUI_00018_.webp.gif
+2024-06-16T23:35:54.748Z thumbsup:error Error: spawn gifsicle ENOENT
+2024-06-16T23:35:54.760Z thumbsup:error Error processing Jet-DS_00011_.webp -> media/small/Jet-DS_00011_.jpg
+2024-06-16T23:35:54.760Z thumbsup:error Error: Command failed: gm convert: No data returned (/Volumes/Data/source/ai-images/gallery/Jet-DS_00011_.webp).
+2024-06-16T23:35:54.760Z thumbsup:error 
+2024-06-16T23:35:54.760Z thumbsup:error Error processing Jet-DS_00011_.webp -> media/thumbs/Jet-DS_00011_.jpg
+2024-06-16T23:35:54.760Z thumbsup:error Error: Command failed: gm convert: No data returned (/Volumes/Data/source/ai-images/gallery/Jet-DS_00011_.webp).
+2024-06-16T23:35:54.760Z thumbsup:error 
+2024-06-16T23:35:54.760Z thumbsup:error Error processing Jet-DS_00011_.webp -> media/large/Jet-DS_00011_.jpg
+2024-06-16T23:35:54.760Z thumbsup:error Error: Command failed: gm convert: No data returned (/Volumes/Data/source/ai-images/gallery/Jet-DS_00011_.webp).
+2024-06-16T23:35:54.760Z thumbsup:error 
+2024-06-16T23:35:58.772Z thumbsup:warn The following sources files were not processed:
+2024-06-16T23:35:58.772Z thumbsup:warn ComfyUI_00020_.webp.gif,ComfyUI_00021_.webp.gif,ComfyUI_00023_.webp.gif,ComfyUI_00024_.webp.gif,ComfyUI_00025_.webp.gif,ComfyUI_00026_.webp.gif,ComfyUI_00027_.webp.gif,Jet-DS.webp.gif,Jet-DS_00001_.webp.gif,Jet-DS_00002_.webp.gif,Jet-DS_00003_.webp.gif,Jet-DS_00005_.webp.gif,Jet-DS_00006_.webp.gif,Jet-DS_00007_.webp.gif,Jet-DS_00008_.webp.gif,Jet-DS_00009_.webp.gif,Jet-DS_00010_.webp.gif,Jet-DS_00015_.webp.gif,Jet-DS_00016_.webp.gif,Jet-DS_00017_.webp.gif,226FCBC1-F606-43EB-A9E2-106B3E2EA1B7.mov,2EB874DC-EDCB-42BE-8720-23A6A6D3B8A7.mov,37935E41-6555-4BD0-8A88-B96356E641BE.mov,3fe9fb54d365d7dc56645b64ecdbc19668f52cfe48144ca507be5db0.mov,4e8000235c715a69472abf10c1eb0d12803203ab30781362b75147f3.mov,5BB72F75-1008-4625-BA40-8F3BD540CF41.mov,5bc14b7cfc699381465044b214ee896079fa44a13630364f4391154c.mov,ComfyUI_00002_.webp.gif,ComfyUI_00003_.webp.gif,ComfyUI_00004_.webp.gif,ComfyUI_00006_.webp.gif,ComfyUI_00007_.webp.gif,ComfyUI_00013_.webp.gif,ComfyUI_00015_.webp.gif,ComfyUI_00016_.webp.gif,ComfyUI_00017_.webp.gif,ComfyUI_00018_.webp.gif,Jet-DS_00011_.webp
