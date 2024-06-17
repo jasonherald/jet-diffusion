@@ -47,6 +47,7 @@
           <div class="albumList"
               data-sub-html=""
               data-download-url="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/JetDiffusion_00177_.png"data-src="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/JetDiffusion_00177_.png"data-exthumbimage="media/thumbs/iPhone%2015%20Pro/JetDiffusion_00177_.png"data-filename="JetDiffusion_00177_.png"><a href="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/JetDiffusion_00177_.png"><img
+                      crossorigin="anonymous"
                       src="media/small/iPhone%2015%20Pro/JetDiffusion_00177_.png"
                       width="137.8125"
                       height="300"alt="JetDiffusion_00177_.png"/>
@@ -56,6 +57,7 @@
           <div class="albumList"
               data-sub-html=""
               data-download-url="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/JetDiffusion_00178_.png"data-src="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/JetDiffusion_00178_.png"data-exthumbimage="media/thumbs/iPhone%2015%20Pro/JetDiffusion_00178_.png"data-filename="JetDiffusion_00178_.png"><a href="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/JetDiffusion_00178_.png"><img
+                      crossorigin="anonymous"
                       src="media/small/iPhone%2015%20Pro/JetDiffusion_00178_.png"
                       width="137.8125"
                       height="300"alt="JetDiffusion_00178_.png"/>
@@ -65,6 +67,7 @@
           <div class="albumList"
               data-sub-html=""
               data-download-url="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/JetDiffusion_00176_.png"data-src="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/JetDiffusion_00176_.png"data-exthumbimage="media/thumbs/iPhone%2015%20Pro/JetDiffusion_00176_.png"data-filename="JetDiffusion_00176_.png"><a href="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/JetDiffusion_00176_.png"><img
+                      crossorigin="anonymous"
                       src="media/small/iPhone%2015%20Pro/JetDiffusion_00176_.png"
                       width="137.8125"
                       height="300"alt="JetDiffusion_00176_.png"/>
@@ -74,6 +77,7 @@
           <div class="albumList"
               data-sub-html=""
               data-download-url="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/JetDiffusion_00173_.png"data-src="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/JetDiffusion_00173_.png"data-exthumbimage="media/thumbs/iPhone%2015%20Pro/JetDiffusion_00173_.png"data-filename="JetDiffusion_00173_.png"><a href="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/JetDiffusion_00173_.png"><img
+                      crossorigin="anonymous"
                       src="media/small/iPhone%2015%20Pro/JetDiffusion_00173_.png"
                       width="137.8125"
                       height="300"alt="JetDiffusion_00173_.png"/>
@@ -83,6 +87,7 @@
           <div class="albumList"
               data-sub-html=""
               data-download-url="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/00001-2002568616.png"data-src="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/00001-2002568616.png"data-exthumbimage="media/thumbs/iPhone%2015%20Pro/00001-2002568616.png"data-filename="00001-2002568616.png"><a href="https://jasonbherald-my.sharepoint.com/personal/jasonherald_jasonbherald_com/Documents/AI Images/iPhone%2015%20Pro/00001-2002568616.png"><img
+                      crossorigin="anonymous"
                       src="media/small/iPhone%2015%20Pro/00001-2002568616.png"
                       width="137.8125"
                       height="300"alt="00001-2002568616.png"/>
@@ -115,13 +120,10 @@
     <!-- VideoJS -->
     <script src="public/videojs/video.min.js"></script>
     <!-- LightGallery -->
-    <script src="public/lightgallery/js/lightgallery.js"></script>
-    <script src="public/lightslider/js/lightslider.min.js"></script>
-    <script src="public/lightgallery/js/lg-autoplay.js"></script>
-    <script src="public/lightgallery/js/lg-pager.js"></script>
-    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
-    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lightgallery-all.min.js"></script>
     <script src="public/lightgallery/js/lg-exif.min.js"></script>
+    <!-- LightSlider + Justified Gallery -->
+    <script src="public/lightslider/js/lightslider.min.js"></script>
     <script src="public/justifiedgallery/jquery.justifiedGallery.min.js"></script>
 
     <script>
@@ -133,7 +135,9 @@
           download: true,
           counter: true,
           videojs: true,
-          exThumbImage: 'data-exthumbimage',
+          fullScreen: true,
+          zoom: true,
+          exThumbImage: 'data-exthumbimage'
         });
 
         // Init justified gallery for albums
