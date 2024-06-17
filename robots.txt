@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow:
+Sitemap: ai.aaru.network/sitemap.xml
