@@ -125,8 +125,8 @@ nav.breadcrumbs a {
 .lSSlideOuter {
   margin-bottom: 50px;
 }
-nav.pagination {
-  color: #666;
+----------------------------------- Pagination navigation ----------------------------------- nav.pagination {
+  color: #eee;
   display: inline-block;
   font-size: 1em;
   margin-top: 2em;
@@ -138,16 +138,20 @@ nav.pagination .page {
 nav.pagination .page.current {
   font-weight: bold;
 }
-nav.pagination a {
-  color: #666;
+.page-item a {
+  color: #eee;
+  background-color: 333;
 }
-.pagination a {
+.page-item a {
   border-radius: 5px;
+  background-color: eee;
 }
-.pagination a.active {
+.page-item a.active {
   border-radius: 5px;
+  background-color: eee;
+  color: 333;
 }
-#zip {
+----------------------------------- Zip download ----------------------------------- #zip {
   color: #666;
   margin-bottom: 2em;
 }
