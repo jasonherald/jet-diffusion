@@ -141,6 +141,12 @@ nav.pagination .page.current {
 nav.pagination a {
   color: #666;
 }
+.pagination a {
+  border-radius: 5px;
+}
+.pagination a.active {
+  border-radius: 5px;
+}
 #zip {
   color: #666;
   margin-bottom: 2em;
