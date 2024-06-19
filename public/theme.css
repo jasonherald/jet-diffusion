@@ -157,3 +157,11 @@ html, body, header, h1 {
 h1, a {
   color: white !important;
 }
+
+.pagination a {
+  border-radius: 5px;
+}
+
+.pagination a.active {
+  border-radius: 5px;
+}
